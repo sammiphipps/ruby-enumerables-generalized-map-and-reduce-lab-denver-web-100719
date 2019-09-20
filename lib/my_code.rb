@@ -9,7 +9,6 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_point = nil)
-  #needed to use 
   if starting_point
     sum = starting_point
     i = 0
